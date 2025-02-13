@@ -3,3 +3,19 @@ Time Series Analysis
 autoregressive moving average model (ARMA) used in predicting marathon runners' results (2020)
   used several years of data to predict upcoming competition results
   https://sciendo.com/pdf/10.2478/ijcss-2022-0008#:~:text=Time%20series%20analysis%20in%20sports,marathon%20results%20over%20several%20years
+
+player styles could significantly skew data
+  for example, a team playing a 4-2-1-2-1 (very defensive) would have different defender expectations than one in a 3-4-3
+  does this have a significant effect on data?
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC10443261/
+
+not pursuing time series analysis:
+  data is not organized enough to be easy to split
+  team bias is too strong (good player w/ bad team and vice versa)
+  players switch teams too often
+  too many new players (regression to the mean, https://www.iwh.on.ca/what-researchers-mean-by/regression-to-mean)
+
+possible angle for working against team bias:
+  compare all stats except win percentage, then negatively bias
+    e.g., player A has stats near 50th percentile of defenders, but team wins 20% of matches. that player is probably much better than 50th percentile.
+    similar to explanation for elo (https://www.sciencedirect.com/science/article/pii/S036013151630080X), we want to reward players with good performance in tough situations
