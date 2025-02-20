@@ -8,10 +8,14 @@ Name:
     If players have multiple name lists, means either:
       Played multiple positions --> Pick most defensive position
       Played for multiple teams/leagues --> Pick greater time played (90s)
-      
+
+Number of Players Tackled:
+    High Priority
+
+
     
 
-Priorities:
+Priorities: (17 Total)
 
 High Positive
 % Tackles Won
@@ -25,13 +29,19 @@ High Negative
 # Errors
 
 Mid Positive
+# Tackles
 # Clearances
 # Mid 3rd Tackles
 # Dribble Challenges Total
 # Shots + Passes Blocked (Combined)
 
+Mid Negative
+# Unsuccessful Dribble Challenges
+
 Low Positive
 # Att 3rd Tackles
 % 90s
 # Tackles + Interceptions
+# Total Dribble Challenges
+
     
