@@ -1,0 +1,47 @@
+90s: How many minutes (min 0, max 90) did they play per game on average?
+    Used to normalize stats
+    Very slight bias given towards players with more playtime (arguable)
+    Filter out players with < 3.5 mins per game on average
+
+Name:
+    Obviously not used when doing ranking, but for filtering
+    If players have multiple name lists, means either:
+      Played multiple positions --> Pick most defensive position
+      Played for multiple teams/leagues --> Pick greater time played (90s)
+
+Number of Players Tackled:
+    High Priority
+
+
+    
+
+Priorities: (17 Total)
+
+High Positive
+% Tackles Won
+% Dribble Challenges Won
+# Def 3rd Tackles
+# Interceptions
+# Shots Blocked
+# Passes Blocked
+
+High Negative
+# Errors
+
+Mid Positive
+# Tackles
+# Clearances
+# Mid 3rd Tackles
+# Dribble Challenges Total
+# Shots + Passes Blocked (Combined)
+
+Mid Negative
+# Unsuccessful Dribble Challenges
+
+Low Positive
+# Att 3rd Tackles
+% 90s
+# Tackles + Interceptions
+# Total Dribble Challenges
+
+    
