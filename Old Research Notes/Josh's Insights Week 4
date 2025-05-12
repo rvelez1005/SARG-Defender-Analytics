@@ -5,7 +5,7 @@ autoregressive moving average model (ARMA) used in predicting marathon runners' 
   https://sciendo.com/pdf/10.2478/ijcss-2022-0008#:~:text=Time%20series%20analysis%20in%20sports,marathon%20results%20over%20several%20years
 
 player styles could significantly skew data
-  for example, a team playing a 4-2-1-2-1 (very defensive) would have different defender expectations than one in a 3-4-3
+  for example, a team playing a 4-2-1-2-1 (very defensive) would have different defender expectations than one in a 3-4-3 formation
   does this have a significant effect on data?
   https://pmc.ncbi.nlm.nih.gov/articles/PMC10443261/
 
